@@ -51,18 +51,26 @@ Website chính thức: `benhvienthammykangnam.com.vn`
 
 **3 Bệnh viện thẩm mỹ + 7 Viện thẩm mỹ toàn quốc.**
 
+> 🔧 **Đối chiếu `/chi-nhanh/` ngày 2026-10-16 — LỆCH, phải xác minh trước khi dùng cho local.**
+> Trang chi nhánh chính thức hiện công bố **7 cơ sở tại 7 tỉnh thành: 2 bệnh viện thẩm mỹ** (Hà Nội 190 Trường Chinh — GP **194/BYT-GPHĐ**; Sài Gòn 666 CM Tháng 8 — GP **287/BYT-GPHĐ**) **+ 5 viện thẩm mỹ** (Hải Phòng · Nghệ An · Đà Nẵng · Cần Thơ · Thanh Hóa).
+> **Ba cơ sở trong bảng dưới KHÔNG xuất hiện trên trang đó:** `BVTM Kangnam CS2 – 218 Nguyễn Trãi` · `Viện Trẻ hoá & Điều trị da công nghệ cao – 194 Trường Chinh` · `Chi nhánh Bình Dương`.
+> Chưa đủ căn cứ để khẳng định ba cơ sở này đã đóng — có thể là pháp nhân khác hoặc trang chưa cập nhật. Nhưng **GEO/local nói về địa điểm**, nên nêu sai một cơ sở là chạm rào **R3 (đúng pháp nhân)**.
+> → **Luật tạm thời: chỉ dùng 7 cơ sở có trên `/chi-nhanh/` cho nội dung local.** Ba cơ sở còn lại chỉ dùng sau khi Pháp chế xác nhận còn hoạt động và còn giấy phép.
+> Chụp lại bất cứ lúc nào: `python ../Agent-LDP-Kangnam/tools/fetch-du-lieu.py --chi co_so`
+
+
 | Vùng | Cơ sở | Địa chỉ |
 |---|---|---|
 | Sài Gòn | BVTM Kangnam Sài Gòn (CS1) | 666 Cách Mạng Tháng 8 |
-| Sài Gòn | BVTM Kangnam (CS2) | 218 Nguyễn Trãi |
+| Sài Gòn | BVTM Kangnam (CS2) | 218 Nguyễn Trãi ⚠️ *không có trên /chi-nhanh/ 16/10/2026* |
 | Hà Nội | BVTM Kangnam Hà Nội | 190 Trường Chinh |
-| Hà Nội | Viện Trẻ hoá & Điều trị da công nghệ cao | 194 Trường Chinh |
+| Hà Nội | Viện Trẻ hoá & Điều trị da công nghệ cao | 194 Trường Chinh ⚠️ *không có trên /chi-nhanh/ 16/10/2026* |
 | Đà Nẵng | Chi nhánh Đà Nẵng | 293 Hùng Vương, Thanh Khê |
 | Thanh Hoá | Chi nhánh Thanh Hoá | 103 Nguyễn Trãi, P. Hạc Thành |
 | Hải Phòng | Chi nhánh Hải Phòng | 378 Tô Hiệu, Lê Chân |
 | Nghệ An | Chi nhánh Nghệ An | 148 Nguyễn Văn Cừ, TP. Vinh |
 | Cần Thơ | Chi nhánh Cần Thơ | 28 Lý Tự Trọng, Ninh Kiều |
-| Bình Dương | Chi nhánh Bình Dương | 8D9 KDC Chánh Nghĩa, TP. Thủ Dầu Một |
+| Bình Dương | Chi nhánh Bình Dương | 8D9 KDC Chánh Nghĩa, TP. Thủ Dầu Một ⚠️ *không có trên /chi-nhanh/ 16/10/2026* |
 
 **8 hub chính đưa vào kế hoạch quý:** Hà Nội · TP.HCM · Hải Phòng · Nghệ An · Đà Nẵng · Cần Thơ · Bình Dương · Thanh Hoá.
 **19 trang tỉnh vệ tinh:** KHÔNG nằm trong phạm vi quý — đẩy backlog.
