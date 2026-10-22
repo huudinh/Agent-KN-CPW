@@ -135,6 +135,7 @@ Brief xuất ra gồm: hành vi khách của giai đoạn (đang nghĩ gì · **
 | [knowledge/geo-phuong-phap-luan.md](knowledge/geo-phuong-phap-luan.md) | Trục 6 bước · S1–S6 · 80/20 *(đồng bộ từ GEO-Plant)* |
 | [knowledge/kangnam-brand-geo.md](knowledge/kangnam-brand-geo.md) | Kangnam là ai · cơ sở · bác sĩ *(đồng bộ)* |
 | [knowledge/geo-rao-phap-ly.md](knowledge/geo-rao-phap-ly.md) | 12 rào R0–R11 *(đồng bộ)* |
+| [goi/](goi/) | **Bản gộp dự phòng** — 1 file thay cho 6 file rời, dùng khi chạm trần số file của nền tảng |
 | [doc/01-cai-dat.md](doc/01-cai-dat.md) | Cài đặt · smoke test · xử lý sự cố |
 | [doc/02-cau-lenh.md](doc/02-cau-lenh.md) | Công thức ra lệnh · prompt mẫu |
 | [doc/03-output-mau.md](doc/03-output-mau.md) | Phiếu bàn giao mẫu · dấu hiệu bài đúng/sai |

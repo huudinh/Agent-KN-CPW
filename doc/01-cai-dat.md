@@ -36,6 +36,22 @@ File do GEO-Plant sở hữu được đồng bộ bằng `Agent-KN-GEO-Plant/to
 
 ---
 
+## Đường dự phòng — upload 1 file thay cho 6 file
+
+Nền tảng chặn số file (**Gemini Gems trần 10 file**) hoặc upload nhiều file một lượt bị lỗi thì dùng bản gộp trong [`goi/`](../goi/):
+
+| File gộp | Cỡ | Thay cho |
+|---|---|---|
+| [`goi/GOP-tri-thuc.md`](../goi/GOP-tri-thuc.md) | 65 KB | **6 file** `knowledge/` |
+
+Nội dung **giống hệt bản rời** — mỗi phần mở đầu bằng dòng `===== tên file =====` nên Agent vẫn đọc đúng từng module, và tham chiếu chéo `[[tên-file]]` vẫn trỏ đúng.
+
+> ⚠ **Đánh đổi phải biết trước:** dùng bản gộp thì **mất khả năng thay riêng một module** — sửa một file là phải sinh lại và upload lại cả bản gộp. **Bản rời vẫn là đường chính**; bản gộp chỉ để chữa cháy khi chạm trần số file.
+>
+> Sinh lại sau khi sửa tri thức: `python tools/gop-tham-khao.py`. ⛔ Không sửa tay file trong `goi/`.
+
+---
+
 # 3. Nạp brief cho từng bài
 
 CPW cần brief của cụm mới viết được. Hai cách:
